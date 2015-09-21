@@ -1,0 +1,266 @@
+.panel-default .panel-heading {
+	background-color: #63abae;	/*#4D8588*/
+	color: #FFFFFF;	
+}
+
+.panel-default .panel-heading .panel-title {
+	
+}
+
+.panel-default {
+	border-color: #63abae;
+}
+
+.navbar-default {
+	background-color: #63abae;	/*#4D8588*/
+	border-color: #457476;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: #457476;
+}
+
+.navbar-default .navbar-header a.navbar-brand {
+	color: #00f0ff;
+}
+
+.navbar-default .navbar-header .navbar-text {
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav li a,
+.navbar-default .navbar-nav li a:hover, 
+.navbar-default .navbar-nav li a:focus { 
+	background-color: #64c7cb;
+}
+
+.label-default {
+	background-color: #6dbbbf;
+}
+
+.btn-default {
+	background-color: #5a9b9d;
+	color: #FFFFFF;
+	border-color: #487d7e;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active {
+	background-color: #487d7e;
+	color: #FFFFFF;
+	border-color: #365c5e;
+}
+
+.btn-default.disabled, .btn-default[disabled], fieldset[disabled] .btn-default,
+.btn-default.disabled:hover, .btn-default[disabled]:hover, fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus, .btn-default[disabled]:focus, fieldset[disabled] .btn-default:focus,
+.btn-default.disabled:active, .btn-default[disabled]:active, fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active, .btn-default[disabled].active, fieldset[disabled] .btn-default.active {
+	background-color: #769494;   	
+}
+
+.nav li a:hover,
+.nav li a:focus,
+.list-group a.list-group-item:hover,
+.list-group a.list-group-item:focus {
+	background-color: #ecf9f9;
+}
+
+.list-group a.list-group-item h4 {
+	color: #2A6496;
+}
+
+.nav li.active a,
+.nav li.active a:hover,
+.nav li.active a:focus {
+	background-color: #63abae;
+}
+
+.table-striped tbody tr:nth-child(2n+1) td,
+.table-striped tbody tr:nth-child(2n+1) th { 
+	background-color: #f2fcfc;
+}
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th { 
+	background-color: #ecf9f9;
+}
+
+.multiline {
+	white-space:	pre-wrap;
+}
+
+.footer {
+	background-color: #2c4c4e;
+	color: #FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.footer a {
+	color: #00C0CC;
+}
+
+.footer a:hover,
+.footer a:focus {
+	color: #00F0FF;
+}
+
+.label-big {
+	font-size: 100%;
+}
+
+.top20 {
+	margin-top: 20px;
+}
+
+.top15 {
+	margin-top: 15px;
+}
+
+.top10 {
+	margin-top: 10px;
+}
+
+.top5 {
+	margin-top: 5px;
+}
+
+.top0 {
+	margin-top: 0;
+}
+
+.bottom0 {
+	margin-bottom: 0;
+}
+
+.bottom20 {
+	margin-bottom: 20px;
+}
+
+.navbar-brand {
+	padding-top: 5px;
+}
+
+.toppad5 {
+	padding-top: 5px;
+}
+
+.toppad10 {
+	padding-top: 10px;
+}
+
+.bottompad0 {
+	padding-bottom: 0;
+}
+
+.underline-dashed {
+	border-bottom: 1px dashed gray;
+}
+
+h3 a.mqlist-item-head,
+h3 a.mqlist-item-head:hover,
+h3 a.mqlist-item-head:focus,
+h3 a.mqlist-item-head:active {
+	color: #333333;
+}
+
+.panel-default div.underline-dashed {
+	border-color: #63abae;
+}
+
+div.expanded {
+	background-color: #e8f2f2;
+	border-color: #cad4d4;
+	padding-left: 0;
+	padding-right: 0;
+	/*
+	padding: 3px 0;
+	border: 1px solid #e8f2f2;
+	*/
+}
+
+.text-deleted {
+	text-decoration: line-through;
+}
+
+.text-default {
+	color: #5a9b9d;
+}
+
+input[type=file].file-upload {
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#vk_comments {
+	margin-bottom: 20px;
+}
+
+.btn-navbar-onlyicon {
+	height: 34px;
+}
+
+.btn-navbar-onlyicon .glyphicon {
+	line-height: 1.43;
+}
+
+.btn-block-sm { }
+
+.btn-block-sm + .btn-block-sm { }
+
+input[type="submit"].btn-block-sm,
+input[type="reset"].btn-block-sm,
+input[type="button"].btn-block-sm { }
+
+@media (min-width: 768px) {
+	.btn-block-sm {
+	  display: block;
+	  width: 100%;
+	}
+	.btn-block-sm + .btn-block-sm {
+	  margin-top: 5px;
+	}
+	input[type="submit"].btn-block-sm,
+	input[type="reset"].btn-block-sm,
+	input[type="button"].btn-block-sm {
+	  width: 100%;
+	}
+}
+
+.thumbnail-delete {
+  position: relative;
+}
+
+.thumbnail-delete:hover:before,
+.thumbnail-delete:hover:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 3px solid;
+  border-color: inherit;
+}
+
+.thumbnail-delete:hover:before {
+  -webkit-transform:rotate(-45deg);
+  -moz-transform:rotate(-45deg);
+  -ms-transform:rotate(-45deg);
+  -o-transform:rotate(-45deg);
+  transform:rotate(-45deg);
+}
+
+.thumbnail-delete:hover:after {
+  -webkit-transform:rotate(45deg);
+  -moz-transform:rotate(45deg);
+  -ms-transform:rotate(45deg);
+  -o-transform:rotate(45deg);
+  transform:rotate(45deg);
+}
+
+.well { 
+	background-color: #f2fcfc;
+}

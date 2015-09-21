@@ -1,0 +1,14 @@
+*.class
+*.pyc
+*.pyo
+dev/
+modules/vendor/
+vendor/
+settings.php
+uploads/img*
+uploads/large/img*
+uploads/middle/img*
+uploads/thumbnail/img*
+sitemap.xml
+yandex_56d9919946c741c3.txt
+googleba4b6284785943fd.html
